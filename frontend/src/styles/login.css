@@ -1,0 +1,27 @@
+.login__page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login__panel .iChat {
+  margin-bottom: 50px;
+}
+
+.login__panel .g-logo {
+  margin-left: 10px;
+}
+
+.login__panel Button {
+  background-color: var(--msg-color);
+  color: white;
+}

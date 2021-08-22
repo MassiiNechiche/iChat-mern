@@ -1,0 +1,135 @@
+.sidebar {
+  width: 400px;
+  min-width: 400px;
+  height: 100vh;
+  border-right: 1px solid var(--msg-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar__top {
+  width: calc(100% - 40px);
+  padding: 20px;
+  height: 100px;
+}
+
+.top__content {
+  background-color: #323337;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.top__content__p1 {
+  height: 60%;
+  border-bottom: 1px solid #3d3e42;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.top__content__p1 p {
+  margin-left: 10px;
+  color: #cfd0d3;
+  font-size: 15px;
+}
+
+.top__content__p2 {
+  width: 100%;
+  height: 40%;
+  border-bottom: 1px solid #3d3e42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #cfd0d3;
+  font-size: 14px;
+}
+
+.top__content__p2 .MuiSvgIcon-root {
+  color: #735fe7;
+  font-size: 14px;
+  margin-right: 7px;
+}
+
+.sidebar__mid {
+  width: calc(100%);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mid__content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.mid__content__head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.head__title {
+  display: flex;
+  align-items: center;
+  color: #c4c4c4;
+}
+
+.head__icons {
+  display: flex;
+  align-items: center;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.head__icons .MuiSvgIcon-root {
+  font-size: 26px;
+}
+
+.head__icons:hover {
+  color: #e86a45;
+}
+
+.sidebar__bottom {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom__content {
+  background-color: var(--msg-color);
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: #a8a7a7;
+}
+.bottom__content .MuiSvgIcon-root {
+  font-size: 20px;
+}
+.bottom__content .live {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  border: 1px solid #3e3f44;
+  padding: 1px 5px;
+  border-radius: 7px;
+}
+.bottom__content .live .MuiSvgIcon-root {
+  font-size: 17px;
+  margin-right: 4px;
+}

@@ -1,0 +1,45 @@
+.navbar {
+  min-width: 65px;
+  height: 100vh;
+  border-right: 1px solid var(--msg-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+.navbar .messagin {
+  border: 4px solid var(--msg-color);
+  margin-top: 15px;
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  background-color: #644ce9;
+}
+
+.navbar .videocall {
+  border: 4px solid var(--msg-color);
+  margin-top: 15px;
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  background-color: #d65b22;
+}
+
+.navbar .exit {
+  bottom: 30px;
+  color: var(--icons-color);
+  font-size: 26px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.navbar .avatar:hover {
+  border: 4px solid rgba(47, 50, 59, 0.842);
+  transition: all ease 200ms;
+}
+
+.navbar .exit:hover {
+  color: white;
+}
